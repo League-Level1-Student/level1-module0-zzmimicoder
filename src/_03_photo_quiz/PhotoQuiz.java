@@ -62,12 +62,12 @@ public class PhotoQuiz {
 		quizWindow.pack();
 
 		// 13. ask another question
-		String answerno2 = JOptionPane.showInputDialog("Is this you");
+		String answerno2 = JOptionPane.showInputDialog("Is this you?");
 		// 14+ check answer, say if correct or incorrect, etc.
 		if (answerno2.equals("No")) {
 			JOptionPane.showMessageDialog(null, "Incorrect");
 		} else if (answerno2.equals("Yes")) {
-			JOptionPane.showMessageDialog(null, "Correct");
+			JOptionPane.showMessageDialog(null, "Correct"); 
 		}
 	}
 
